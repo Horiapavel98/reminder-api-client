@@ -142,6 +142,11 @@
                   <Insets left="10.0" />
                </GridPane.margin>
             </Text>
+            <TextField fx:id="tunnelField" promptText="Ngrok Tunnel URL ..." GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="120.0" right="200.0" />
+               </GridPane.margin>
+            </TextField>
          </children>
       </GridPane>
    </center>
