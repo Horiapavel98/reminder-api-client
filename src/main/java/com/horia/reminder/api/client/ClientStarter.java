@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -18,6 +19,8 @@ public class ClientStarter extends Application {
         stage.setScene(scene);
         stage.setTitle("Reminder API");
         stage.show();
+
+        stage.getIcons().add(new Image(getClass().getResourceAsStream("reminder.png")));
     }
 
     private static Parent loadFXML(String fxml) throws IOException {
