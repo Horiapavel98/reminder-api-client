@@ -15,7 +15,7 @@ This project uses Maven for build automation. Once JavaFX is configured, run:
 
 Start the application.
 
-    java -jar 
+    java -jar reminder-api-client.jar
 
 User interface
 
