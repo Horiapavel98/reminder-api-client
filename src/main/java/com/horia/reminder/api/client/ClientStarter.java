@@ -18,6 +18,7 @@ public class ClientStarter extends Application {
         scene = new Scene(loadFXML("schema"));
         stage.setScene(scene);
         stage.setTitle("Reminder API");
+        stage.setResizable(false);
         stage.show();
 
         stage.getIcons().add(new Image(getClass().getResourceAsStream("reminder.png")));

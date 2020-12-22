@@ -153,7 +153,7 @@
    <top>
       <FlowPane BorderPane.alignment="CENTER">
          <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Reminder API - v1.8">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Reminder API - Desktop client">
                <font>
                   <Font name="Century Gothic" size="20.0" />
                </font>
